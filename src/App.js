@@ -3,11 +3,11 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Work from "./components/Work";
+import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -19,8 +19,8 @@ class App extends Component {
           </div>
           <div className="flex flex-col min-w-full bg-gradient-to-r from-darkGreen via-darkGreen to-darkLightGreen">
             <About />
+            <Projects />
             <Experience />
-            <Work />
             <Education />
             <Contact />
           </div>
